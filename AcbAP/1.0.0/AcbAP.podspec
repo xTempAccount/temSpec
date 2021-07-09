@@ -9,8 +9,6 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
-
-  s.source_files = 'AcbAP.framework/*'
   s.exclude_files = "AcbAP.framework/*.plist"
 
 
