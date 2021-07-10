@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "AcbAP"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "The open source fonts for AcbAP categories."
   s.homepage         = "https://github.com/xTempAccount"
   s.license          = 'Code is MIT, then custom font licenses.'
@@ -9,8 +9,11 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
-  s.exclude_files = "AcbAP.framework/*.plist"
+  # s.source_files = 'AcbAP/AcbAP.framework'
+  s.vendored_frameworks = 'AcbAP/AcbAP.framework'
 
 
-  s.module_name = 'AcbAP'
+  s.exclude_files = 'AcbAP/AcbAP.framework/*.plist'
+
+  s.module_name = 'libAcbAP'
 end
