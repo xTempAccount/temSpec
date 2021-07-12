@@ -13,6 +13,9 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'AcbAP.framework'
   s.dependency 'GRDB.swift'
   s.dependency 'ReachabilitySwift'
+  s.dependency 'APBase'
+  s.dependency 'APCore'
+  s.dependency 'APFacade'
 
 
   s.exclude_files = 'AcbAP.framework/*.plist'
