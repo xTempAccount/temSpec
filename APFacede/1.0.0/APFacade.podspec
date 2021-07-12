@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "AcbAPFacade"
+  s.name             = "APFacade"
   s.version          = "1.0.0"
   s.summary          = "The open source fonts for APFacade categories."
   s.homepage         = "https://github.com/xTempAccount"
