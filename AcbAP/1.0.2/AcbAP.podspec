@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   # s.source_files = 'AcbAP/AcbAP.framework'
   s.vendored_frameworks = 'AcbAP.framework'
-  s.dependency 'GRDB'
+  s.dependency 'GRDB.swift'
   s.dependency 'ReachabilitySwift'
 
 
