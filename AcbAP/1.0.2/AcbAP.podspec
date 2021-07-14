@@ -11,15 +11,12 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source_files = '**/*'
   s.swift_versions = '5.0'
-  # s.vendored_frameworks = 'AcbAP.framework'
+
   s.dependency 'GRDB.swift'
   s.dependency 'ReachabilitySwift'
   s.dependency 'APBase'
   s.dependency 'APCore'
   s.dependency 'APFacade'
-
-
-  # s.exclude_files = 'AcbAP.framework/*.plist'
-
+  
   s.module_name = 'libAcbAP'
 end
