@@ -9,11 +9,13 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
-  # s.source_files = 'AcbAP/AcbAP.framework'
-  s.vendored_frameworks = 'APCore.framework'
+  s.source_files = '**/*'
+    s.swift_versions = '5.0'
+
+  # s.vendored_frameworks = 'APCore.framework'
 
 
-  s.exclude_files = 'APCore.framework/*.plist'
+  # s.exclude_files = 'APCore.framework/*.plist'
 
   s.module_name = 'libAcbAPCore'
 end

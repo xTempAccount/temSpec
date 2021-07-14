@@ -9,8 +9,9 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
-  # s.source_files = 'AcbAP/AcbAP.framework'
-  s.vendored_frameworks = 'AcbAP.framework'
+  s.source_files = '**/*'
+  s.swift_versions = '5.0'
+  # s.vendored_frameworks = 'AcbAP.framework'
   s.dependency 'GRDB.swift'
   s.dependency 'ReachabilitySwift'
   s.dependency 'APBase'
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency 'APFacade'
 
 
-  s.exclude_files = 'AcbAP.framework/*.plist'
+  # s.exclude_files = 'AcbAP.framework/*.plist'
 
   s.module_name = 'libAcbAP'
 end

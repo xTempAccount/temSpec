@@ -9,11 +9,13 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
-  # s.source_files = 'AcbAP/AcbAP.framework'
-  s.vendored_frameworks = 'APFacade.framework'
+  s.source_files = 'AcbAP/AcbAP.framework'
+    s.swift_versions = '5.0'
+
+  # s.vendored_frameworks = 'APFacade.framework'
 
 
-  s.exclude_files = 'APFacade.framework/*.plist'
+  # s.exclude_files = 'APFacade.framework/*.plist'
 
   s.module_name = 'libAcbAPFacade'
 end
