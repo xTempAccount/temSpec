@@ -7,14 +7,10 @@ Pod::Spec.new do |s|
   s.author           = ""
   s.source           = { :git => "https://github.com/xTempAccount/APBase.git", :tag => s.version }
 
-  s.platform     = :ios, '9.0'
+  s.platform     = :ios, '10.0'
   s.requires_arc = true
   s.source_files = '**/*'
-    s.swift_versions = '5.0'
-  # s.vendored_frameworks = 'APBase.framework'
-
-
-  # s.exclude_files = 'APBase.framework/*.plist'
-
+  s.swift_versions = '5.0'
+  
   s.module_name = 'APBase'
 end
