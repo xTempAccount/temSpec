@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
 
   # s.exclude_files = 'APBase.framework/*.plist'
 
-  s.module_name = 'libAPBase'
+  s.module_name = 'APBase'
 end
