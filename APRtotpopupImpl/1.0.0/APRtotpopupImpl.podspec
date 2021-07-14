@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.dependency 'APBase'
   s.dependency 'APCore'
   s.dependency 'AcbAP'
+  s.dependency 'APRtotpopup'
 
   s.platform     = :ios, '10.0'
   s.requires_arc = true
