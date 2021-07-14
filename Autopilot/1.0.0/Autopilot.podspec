@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.dependency 'GRDB.swift'
   s.dependency 'ReachabilitySwift'
 
-  # s.source_files = 'AcbAP/AcbAP.framework'
+  s.source_files = '**/*'
   # s.vendored_frameworks = 'Autopilot.framework'
 
 
