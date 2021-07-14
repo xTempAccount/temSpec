@@ -9,6 +9,9 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '9.0'
   s.requires_arc = true
+    s.dependency 'GRDB.swift'
+  s.dependency 'ReachabilitySwift'
+
   # s.source_files = 'AcbAP/AcbAP.framework'
   # s.vendored_frameworks = 'Autopilot.framework'
 
