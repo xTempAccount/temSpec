@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.source_files = '**/*'
   s.swift_versions = '5.0'
 
-  s.module_name = 'libAcbAPFacade'
+  s.module_name = 'APFacade'
 end

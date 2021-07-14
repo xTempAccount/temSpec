@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
 
 
-  s.module_name = 'libAcbAPCore'
+  s.module_name = 'APCore'
 end

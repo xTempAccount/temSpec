@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.dependency 'APBase'
   s.dependency 'APCore'
   s.dependency 'APFacade'
-  
-  s.module_name = 'libAcbAP'
+
+  s.module_name = 'AcbAP'
 end
