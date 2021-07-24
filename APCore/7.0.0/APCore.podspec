@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = ""
   s.source           = { :git => "https://github.com/xTempAccount/temLib.git", :tag => s.version }
 
-  s.dependency 'APBase'
+  s.dependency 'AcbPBase'
 
   s.platform     = :ios, '10.0'
   s.requires_arc = true
